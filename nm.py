@@ -8,6 +8,6 @@ if __name__ == "__main__":
 			print(" [?] Wellcome : ")
 			exit(" [!] Run : python file.py remove")
 	try:
-		__import__("file").__main_MK()
+		__import__("nm").__main_MK()
 	except Exception as e:
 		exit(str(e))
